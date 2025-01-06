@@ -1,0 +1,60 @@
+digraph {
+    rankdir=LR;
+    splines=curved;
+    bgcolor="#ffffff";
+    node [
+        style="filled",
+        gradientangle=270,
+        fillcolor="#88c0d0:#5e81ac",
+        shape="box",
+        rounded=true,
+        fontname="Arial",
+        fontsize=12
+    ];
+    edge [
+        color="#a3be8c",
+        penwidth=2.0,
+        arrowsize=0.8
+    ];
+    0 [ label = "0" ]
+    1 [ label = "1" ]
+    0 -> 1 [ ]
+    0 -> 1 [ ]
+    0 -> 1 [ ]
+    0 -> 1 [ ]
+    0 -> 1 [ ]
+    0 -> 1 [ ]
+    0 -> 1 [ ]
+    0 -> 1 [ ]
+    0 -> 1 [ ]
+    0 -> 1 [ ]
+    0 -> 1 [ ]
+    0 -> 1 [ ]
+    0 -> 1 [ ]
+    0 -> 1 [ ]
+    1 -> 1 [ ]
+    1 -> 1 [ ]
+    1 -> 1 [ ]
+    1 -> 1 [ ]
+    1 -> 1 [ ]
+    1 -> 1 [ ]
+    1 -> 1 [ ]
+    1 -> 1 [ ]
+    1 -> 1 [ ]
+    1 -> 1 [ ]
+    1 -> 1 [ ]
+    1 -> 1 [ ]
+    1 -> 1 [ ]
+    1 -> 1 [ ]
+
+    subgraph cluster_legend {
+        label="Légende";
+        node [shape=none];
+        legend [label=<
+            <table border="0">
+                <tr><td>Nœud actif</td></tr>
+                <tr><td>Canal ouvert</td></tr>
+            </table>
+        >];
+    }
+}

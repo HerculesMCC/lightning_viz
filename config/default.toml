@@ -1,0 +1,7 @@
+[bitcoin]
+rpc_host = "127.0.0.1"
+rpc_port = 18443
+rpc_user = "bitcoinrpc"
+rpc_password = "rpcpassword"
+network = "regtest"
+bitcoin_path = "C:\\Program Files\\Bitcoin\\daemon\\bitcoind.exe"
